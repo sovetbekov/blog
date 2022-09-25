@@ -1,0 +1,23 @@
+baseURL: ""
+languageCode: en-us
+title:
+theme: hugo-PaperMod
+
+params:
+  homeInfoParams:
+    Title: 'Talgat Sovetbekov'
+    Content: 'Software engineering, KTL Alumni, Mountain & Gym lover'
+  socialIcons:
+    - name: github 
+      url: "https://github.com/sovetbekov"
+
+    - name: linkedin
+      url: "https://www.linkedin.com/in/talgat-sovetbekov-1a015b204/"
+
+    - name: telegram
+      url: "https://t.me/talgatsb"
+    
+    - name: email
+      url: "mailto:sovvetbekov@gmail.com"
+
+  ShowReadingTime: true
