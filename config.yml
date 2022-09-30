@@ -19,5 +19,8 @@ params:
     
     - name: email
       url: "mailto:sovvetbekov@gmail.com"
+    
+    - name: spotify
+      url: "https://open.spotify.com/playlist/2630fWOLLz9HLSa2lbkcVG?si=223f06a406eb4cf4"
 
   ShowReadingTime: true
