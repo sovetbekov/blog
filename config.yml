@@ -6,7 +6,7 @@ theme: hugo-PaperMod
 params:
   homeInfoParams:
     Title: 'Talgat Sovetbekov'
-    Content: 'Software engineering, KTL Alumni, mountain, gym, water, nike'
+    Content: 'Software engineering, KTL Alumni, Mountain, Gym, Water, Nike'
   socialIcons:
     - name: github 
       url: "https://github.com/sovetbekov"
