@@ -1,12 +1,12 @@
 baseURL: "https://talgat.tech/"
 languageCode: en-us
-title:
+title: 
 theme: hugo-PaperMod
 
 params:
   homeInfoParams:
     Title: 'Talgat Sovetbekov'
-    Content: 'Software engineering, KTL Alumni, Mountain & Gym lover'
+    Content: 'Software engineering, KTL Alumni, mountain, gym, water, nike'
   socialIcons:
     - name: github 
       url: "https://github.com/sovetbekov"
