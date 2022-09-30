@@ -24,3 +24,5 @@ params:
       url: "https://open.spotify.com/playlist/2630fWOLLz9HLSa2lbkcVG?si=223f06a406eb4cf4"
 
   ShowReadingTime: true
+  defaultTheme: auto
+  ShowBreadCrumbs: true
