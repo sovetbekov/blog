@@ -1,6 +1,6 @@
 baseURL: "https://talgat.tech/"
 languageCode: en-us
-title: 
+title: Talgat
 theme: hugo-PaperMod
 
 params:
@@ -26,3 +26,5 @@ params:
   ShowReadingTime: true
   defaultTheme: auto
   ShowBreadCrumbs: true
+  ShowShareButtons: true
+
