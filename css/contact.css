@@ -1,0 +1,154 @@
+.subtitle {
+  animation: fadeIn 0.75s ease-in-out;
+}
+
+.contact-text{
+  opacity: 0;
+  animation: fadeIn 0.75s ease-in-out;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.contact-text {
+  width: 100%;
+}
+
+.contact-info {
+  margin-bottom: 36px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info h1 {
+  font-size: 16px;
+  color: #71798f;
+  line-height: 1.5em;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.contact-info a {
+  font-size: 16px;
+  color: #00071c;
+  line-height: 1.5em;
+  text-decoration: none;
+}
+
+.social-links {
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.social-links a {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.fa {
+  font-size: 36px;
+  transition: all 0.1s ease;
+}
+
+.fa-linkedin-square {
+  color:rgb(63, 99, 165);
+}
+
+.fa-telegram{
+  color:#0088cc;
+}
+
+.fa-spotify{
+  color: #1db954;
+}
+
+
+.fa:hover {
+  transform: scale(1.05);
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .contact-image {
+    margin-bottom: 36px;
+  }
+  .fa {
+    font-size: 36px;
+  }
+  .contact-info h1 {
+    font-size: 18px;
+  }
+
+  .contact-info a {
+    font-size: 18px;
+  }
+
+ /* #dribbble {
+    width: 32px;
+  }*/
+}
+
+@media (min-width: 992px) and (max-width: 1919px) {
+  .subtitle {
+    margin-bottom: 70px;
+  }
+  .contact-text {
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  .contact-info h1 {
+    font-size: 18px;
+  }
+
+  .contact-info a {
+    font-size: 18px;
+  }
+  .contact-image {
+    margin-bottom: 60px;
+  }
+  .fa {
+    font-size: 30px;
+  }
+
+  #dribbble {
+    width: 26px;
+  }
+}
+
+@media  (min-width: 1920px) {
+  .subtitle {
+    margin-bottom: 70px;
+  }
+  .contact-text {
+    box-sizing: border-box;
+    padding: 0px;
+  }
+  .contact-info h1 {
+    font-size: 20px;
+  }
+
+  .contact-info a {
+    font-size: 20px;
+  }
+  .contact-image {
+    margin-bottom: 60px;
+  }
+  .fa {
+    font-size: 32px;
+  }
+
+  #dribbble {
+    width: 28px;
+  }
+}
